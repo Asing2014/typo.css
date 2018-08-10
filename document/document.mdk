@@ -1,0 +1,74 @@
+[INCLUDE=bootstrap]
+Title      : Bootstrap demo document
+Theme      : whitely
+Css        : nav-example.css
+Col        { .col-lg-4 }
+
+~ Begin Container
+~ Masthead
+
+### 记录生活的点点滴滴  {.text-muted}
+
+* {.active} [首页](#)
+* [文章](#)
+* [Ext](#)
+* [Java](#)
+* [Oracle](#)
+* [关于](#)
+* [联系方式](#)
+{.nav; .nav-justified}
+~ 
+
+~ Jumbotron
+# 迷过一个人 迷过一件事
+By using the bootstrap framework it is easy to create great looking
+webpages that display well both on Mobile and Desktop platforms.
+In madoko, we can directly use any standard bootstrap class names, 
+like `Jumbotron` as a custom block!
+{.lead}
+
+[查看全文](mi.html){.btn; .btn-lg; .btn-success; html-role:button}
+~
+
+<!-- Example row of columns -->
+~ Begin Row
+~ Col
+## Ext 
+As of v7.0.1, Safari exhibits a bug in which resizing your browser
+horizontally causes rendering errors in the justified nav that are
+cleared upon refreshing. 
+{.text-danger}
+
+Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas
+eget quam. Vestibulum id ligula porta felis euismod semper. Fusce
+dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+fermentum massa.\
+[View details &raquo;](#){.btn; .btn-primary; html-role:button}
+~
+
+~ Col
+## Java
+Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas
+eget quam. Vestibulum id ligula porta felis euismod semper. Fusce
+dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+fermentum massa.\
+[View details &raquo;](#){.btn; .btn-primary; html-role:button}
+~
+
+~ Col
+## Oracle
+Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas
+eget quam. Vestibulum id ligula porta felis euismod semper. Fusce
+dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+fermentum massa. type here. which is amazing.\
+[View details &raquo;](#){.btn; .btn-primary; html-role:button}
+~
+
+~ End Row
+
+~ Footer
+&copy; CC 2018
+~
+
+~ End Container
+
